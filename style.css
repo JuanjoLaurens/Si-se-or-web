@@ -764,21 +764,18 @@ header ul li a:hover {
     gap: 0px 0px;
 }
 .footer-logo{
-    padding-left: 30%;
-}
-
-.footer-logo>p{
-    
+    margin-left: 15%;
+    width: 300px;
 }
 .footer-productos {
-    padding-left: 70%;
+    padding-left: 40%;
 
 }
 .footer-contacto{
-    padding-left: 30%;
+    padding-left: 5%;
 }
 .footer-nosotros{
-    padding-left: 40%;
+    padding-left: 20%;
 }
 
 .footer-productos,
@@ -792,5 +789,77 @@ header ul li a:hover {
 
 .logo-footer {
     width: 200px;
-    margin-top: 20%;
+    margin-top: 15%;
+}
+
+.footer-logo>p{
+color: white;
+width: 300px;
+
+font-size: 13px;
+}
+.social{
+    display: inline-block;
+    color: #FFAA22;
+    margin-top: 7%;
+    padding-left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.footer-productos{
+    color: white;
+    width: auto;
+}
+.footer-productos>ul>li{
+    padding-top: 2px;
+}
+
+.footer-nosotros>ul>li{
+    color: white;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.footer-contacto>ul>li{
+    color: white;
+    padding-top: 15px;
+
+}
+
+.footer-blog>p{
+    color: white;
+    width: 200px;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+input {
+    padding-top: 10px;
+    padding: 7px;
+    font-size: 18px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 3px;
+    box-shadow: -1px 0px 7px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    color: white;;
+    width: 200px;
+}
+.footer-blog>button{
+
+        box-shadow: 0px 1px 7px 0px #ffaa22;
+        background-color:#ffaa22;
+        border:1px solid #ffaa22;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        text-decoration:none;
+        height: 35px;
+        width: 90px;
+
 }
